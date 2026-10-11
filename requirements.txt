@@ -1,0 +1,37 @@
+# Libraries used across NLP_Lab1 - NLP_Lab7 (Python 3.11)
+# Install: pip install -r requirements.txt
+# Then run: python setup_resources.py   (NLTK data, spaCy model, Hugging Face models)
+#
+# Versions are pinned to ones verified to load under Windows Smart App Control.
+# Newer wheels can be blocked ("An Application Control policy has blocked this
+# file"), e.g. scikit-learn 1.9.1 and preshed 3.0.13 were.
+
+# Notebook kernel
+ipykernel==7.4.0
+
+# Data handling / plotting (Labs 1-6)
+pandas==3.0.6
+numpy==2.4.6
+matplotlib==3.11.2
+
+# Datasets from Kaggle (Labs 1-4)
+kagglehub==1.0.2
+
+# Classic NLP (Labs 1-5)
+nltk==3.10.3
+spacy==3.8.16
+preshed==3.0.12
+emoji==2.16.0
+gensim==4.4.0
+
+# Machine learning (Labs 3-6)
+scikit-learn==1.7.2
+
+# Deep learning (Lab 6) - CPU build; see https://pytorch.org for CUDA builds
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.14.1
+
+# LLMs (Lab 7)
+transformers==5.19.0
+huggingface_hub==2.2.0
+sentencepiece==0.2.2
