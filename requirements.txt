@@ -1,4 +1,4 @@
-# Libraries used across NLP_Lab1 - NLP_Lab7 (Python 3.11)
+# Libraries used across NLP_Lab1 - NLP_Lab11 (Python 3.11)
 # Install: pip install -r requirements.txt
 # Then run: python setup_resources.py   (NLTK data, spaCy model, Hugging Face models)
 #
@@ -35,3 +35,6 @@ torch==2.14.1
 transformers==5.19.0
 huggingface_hub==2.2.0
 sentencepiece==0.2.2
+
+# Machine translation / attention (Labs 10-11): Keras Tokenizer, pad_sequences, LSTM models
+tensorflow==2.21.0
